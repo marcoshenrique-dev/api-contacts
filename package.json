@@ -1,0 +1,21 @@
+{
+  "name": "contacts",
+  "version": "1.0.0",
+  "description": "Project created from course devBoost",
+  "main": "src/app.js",
+  "author": "Marcos Henrique",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "uuid": "^8.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.6.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  }
+}
